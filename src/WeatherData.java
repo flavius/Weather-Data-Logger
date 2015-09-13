@@ -3,8 +3,7 @@
  */
 public interface WeatherData {
 
-    int getData();
-
+    String getName();
     void setData(int data);
-
+    int getData();
 }
