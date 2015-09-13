@@ -3,7 +3,7 @@
  */
 abstract class WeatherAttribute implements WeatherData {
 
-    protected int data = 0;
+    protected int data;
     protected String name;
 
     @Override
