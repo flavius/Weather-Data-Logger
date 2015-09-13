@@ -3,8 +3,13 @@
 ## IntelliJ
 ###########
 
+
+
 #IDEA specific files
 /.idea/*
+ObserverFix.iml
 
 # class files #
 /out/*
+
+
