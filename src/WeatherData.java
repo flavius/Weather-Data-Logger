@@ -6,4 +6,5 @@ public interface WeatherData {
     String getName();
     void setData(int data);
     int getData();
+
 }
