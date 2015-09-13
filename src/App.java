@@ -27,33 +27,14 @@ public class App {
 
 	public static void main(String[] args) {
 
-		Humidity h = new Humidity();
-		Temperature t = new Temperature();
-		Pressure p = new Pressure();
+		WeatherAttribute humidity = new Humidity();
+		WeatherAttribute temperature = new Temperature();
+		WeatherAttribute pressure = new Pressure();
 
-		System.out.println(h.getData());
-		System.out.println(p.getData());
-		System.out.println(t.getData());
-
-		h.setData(123);
-		p.setData(456);
-		t.setData(789);
-
-		System.out.println(h.getData());
-		System.out.println(p.getData());
-		System.out.println(t.getData());
+		System.out.println(humidity.getName() + " : " + humidity.getData());
+		humidity.setData(50);
+		System.out.println(humidity.getName() + " : " + humidity.getData());
 
 	}
 }
 
-/*
-	public static void main(String[] args) {
-
-		WeatherStation station = new WeatherStation();
-		WeatherObserver weatherObserver = new WeatherObserver(station);
-
-		station.setHumidity(100);
-		station.setPressure(200);
-		station.setTemperature(300);
-		station.setTemperature(800);
-	}*/
