@@ -1,7 +1,7 @@
 /**
  * Created by codeamend on 9/13/15.
  */
-public class Humidity implements WeatherAttribute {
+public class Humidity implements WeatherData {
 
     private int data = 0;
 

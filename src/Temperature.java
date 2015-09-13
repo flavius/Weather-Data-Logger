@@ -1,7 +1,7 @@
 /**
  * Created by codeamend on 9/13/15.
  */
-public class Temperature implements WeatherAttribute {
+public class Temperature implements WeatherData {
 
     private int data;
 

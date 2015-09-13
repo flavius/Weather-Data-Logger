@@ -1,19 +1,23 @@
 
+public class WeatherStation {
 
-import java.util.ArrayList;
-import java.util.List;
+	private Humidity humidity;
+	private Pressure pressure;
+	private Temperature temperature;
+	private
 
-public class WeatherStation implements Subject{
+}
 
-	private int pressure;
-	private int temperature;
-	private int humidity;
-	private List<Observer> observersList;
-	
+/*
+private int pressure;
+private int temperature;
+private int humidity;
+private List<Observer> observersList;
+
 	public WeatherStation(){
 		this.observersList = new ArrayList<>();
 	}
-	
+
 	@Override
 	public void addObserver(Observer o) {
 		this.observersList.add(o);
@@ -44,5 +48,4 @@ public class WeatherStation implements Subject{
 	public void setHumidity(int humidity) {
 		this.humidity = humidity;
 		notifyAllObservers();
-	}
-}
+	}*/

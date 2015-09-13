@@ -1,7 +1,7 @@
 /**
  * Created by codeamend on 9/13/15.
  */
-public class Pressure implements WeatherAttribute {
+public class Pressure implements WeatherData {
 
     private int data;
 
