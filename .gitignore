@@ -1,0 +1,10 @@
+
+###########
+## IntelliJ
+###########
+
+#IDEA specific files
+/.idea/*
+
+# class files #
+/out/*
