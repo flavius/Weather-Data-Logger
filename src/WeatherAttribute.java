@@ -5,6 +5,7 @@ abstract class WeatherAttribute implements WeatherData {
 
     protected int data;
     protected String name;
+    private Printer printer;
 
     @Override
     public String getName() {
