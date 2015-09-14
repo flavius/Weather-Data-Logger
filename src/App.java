@@ -27,14 +27,17 @@ public class App {
 
 	public static void main(String[] args) {
 
-		WeatherAttribute humidity = new Humidity();
-		WeatherAttribute temperature = new Temperature();
-		WeatherAttribute pressure = new Pressure();
+		WeatherStation station1 = new WeatherStation();
+		WeatherStation station2 = new WeatherStation();
 
-		System.out.println(humidity.getName() + " : " + humidity.getData());
-		humidity.setData(50);
-		System.out.println(humidity.getName() + " : " + humidity.getData());
+		station1.pressure.setData(55);
 
 	}
 }
 
+//WeatherStation station = new WeatherStation();
+//WeatherObserver weatherObserver = new WeatherObserver(station);
+//
+//station.setHumidity(100);
+//station.setPressure(200);
+//station.setTemperature(300);
