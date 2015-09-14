@@ -1,3 +1,8 @@
+import codeamend.Humidity;
+import codeamend.Pressure;
+import codeamend.Temperature;
+import codeamend.WeatherAttribute;
+
 public class WeatherStation {
 
     WeatherAttribute humidity = new Humidity();

@@ -28,9 +28,8 @@ public class App {
 	public static void main(String[] args) {
 
 		WeatherStation station1 = new WeatherStation();
-		WeatherStation station2 = new WeatherStation();
 
-		station1.pressure.setData(55);
+
 
 	}
 }
