@@ -10,9 +10,9 @@ public class App {
         WeatherStation station_3 = new WeatherStation("Idaho");
 
         Display display = new Display();
-//
-//        display.attatchObserver(station_1);
-//        display.attatchObserver(station_2);
+
+        display.attatchObserver(station_1);
+        display.attatchObserver(station_2);
 //
 //        station_1.updateData(new Temperature(67));
 //        station_2.updateData(new Humidity(55));
