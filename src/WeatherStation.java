@@ -10,4 +10,8 @@ public class WeatherStation {
         this.name = name;
     }
 
+    public void updateData(Temperature temperature) {
+
+    }
+
 }
