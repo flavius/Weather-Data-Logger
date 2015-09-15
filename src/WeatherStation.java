@@ -17,6 +17,7 @@ public class WeatherStation {
     public void updateData(WeatherAttribute attribute) {
         this.attribute = attribute;
         weatherAttributeList.add(attribute);
+
     }
 
     public String getStationName() {

@@ -8,10 +8,7 @@ public class Display implements LiveUpdateWatch {
     @Override
     public void attatchObserver(WeatherStation station) {
         this.station = station;
-        print();
     }
 
-    public void print() {
-        System.out.println(station.getStationName() + " was created...");
-    }
+
 }
