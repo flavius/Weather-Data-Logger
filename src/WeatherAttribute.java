@@ -5,7 +5,8 @@ abstract class WeatherAttribute {
 
     protected int value;
 
-    protected WeatherAttribute(int value) {
+    // How can a MAKE a child class create this constructor?
+    WeatherAttribute(int value) {
         this.value = value;
     }
 
