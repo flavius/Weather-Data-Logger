@@ -1,4 +1,4 @@
-
+package oldcode;
 
 public interface Subject {
 	public void addObserver(Observer o);

@@ -1,3 +1,4 @@
+package oldcode;
 
 /**
  * 
@@ -11,7 +12,7 @@
  *  			each other 
  *  		-> the only thing the subject knows about an observer is that it implements a
  *  				certain interface
- * 			-> we can add observers whenever we want: just have to implement the Observer interface
+ * 			-> we can add observers whenever we want: just have to implement the oldcode.Observer interface
  * 			-> we do not have to modify the subject to add new type of observers
  * 			-> we can independently reuse subjects or observers
  * 			-> we can change the subject or observer independently
