@@ -6,6 +6,4 @@ public class Temperature extends WeatherAttribute {
     Temperature(int value) {
         super(value);
     }
-
-
 }
