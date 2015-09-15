@@ -9,7 +9,7 @@ public class App {
         WeatherStation station_2 = new WeatherStation("Florida");
         WeatherStation station_3 = new WeatherStation("Idaho");
 
-//        Display display = new ConsoleDisplay();
+        Display display = new Display();
 //
 //        display.attatchObserver(station_1);
 //        display.attatchObserver(station_2);
