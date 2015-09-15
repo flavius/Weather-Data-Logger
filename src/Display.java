@@ -8,5 +8,11 @@ public class Display implements LiveUpdateWatch {
     @Override
     public void attatchObserver(WeatherStation station) {
         this.station = station;
+        printAllData();
+    }
+
+    @Override
+    public void printAllData() {
+        System.out.println("WeatherAttribute was added...");
     }
 }

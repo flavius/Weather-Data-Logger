@@ -10,9 +10,8 @@ abstract class WeatherAttribute {
         this.value = value;
     }
 
-    public void updateDate(int value) {
-        this.value = value;
+    public int getValue() {
+        return value;
     }
-
 
 }

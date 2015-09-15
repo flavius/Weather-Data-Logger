@@ -3,4 +3,5 @@
  */
 public interface LiveUpdateWatch {
     void attatchObserver(WeatherStation station);
+    void printAllData();
 }
