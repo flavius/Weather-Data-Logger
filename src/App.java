@@ -13,8 +13,8 @@ public class App {
 
         display.attatchObserver(station_1);
         display.attatchObserver(station_2);
-//
-//        station_1.updateData(new Temperature(67));
+
+        station_1.updateData(new Temperature(67));
 //        station_2.updateData(new Humidity(55));
 //        station_3.updateData(new Pressure(42));
 
