@@ -13,6 +13,6 @@ public class Display implements LiveUpdateWatch {
 
     @Override
     public void printAllData() {
-        System.out.println("WeatherAttribute was added...");
+        System.out.println(station.getAttributeName() + " was added...");
     }
 }

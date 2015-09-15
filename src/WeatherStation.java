@@ -19,6 +19,10 @@ public class WeatherStation {
         weatherAttributeList.add(attribute);
     }
 
+    public String getAttributeName() {
+        return weatherAttributeList.get(0).name;
+    }
+
 
 
 
