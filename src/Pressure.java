@@ -7,4 +7,8 @@ public class Pressure extends WeatherAttribute {
         super(value);
     }
 
+    @Override
+    public String getName() {
+        return this.name;
+    }
 }

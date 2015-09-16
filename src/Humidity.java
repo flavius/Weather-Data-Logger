@@ -3,7 +3,14 @@
  */
 public class Humidity extends WeatherAttribute {
 
+    private String name = "Temperature";
+
     Humidity(int value) {
         super(value);
+    }
+
+    @Override
+    public String getName() {
+        return this.name;
     }
 }
