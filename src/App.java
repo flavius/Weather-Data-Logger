@@ -9,13 +9,16 @@ public class App {
         WeatherStation station_2 = new WeatherStation("Florida");
         WeatherStation station_3 = new WeatherStation("Idaho");
 
+        LiveUpdate.addStationToWatchList(station_1);
+        LiveUpdate.addStationToWatchList(station_2);
+
         station_1.updateData(new Temperature(67));
         station_2.updateData(new Humidity(55));
         station_3.updateData(new Pressure(42));
 
         //This should display 2 different lines on the console
         //each station on a different line with data displayed.
-        //station_3 / Idahos update will not be displayed
+        //station_3 / Idaho update will not be displayed
 
     }
 

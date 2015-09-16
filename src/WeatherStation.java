@@ -6,5 +6,17 @@ import java.util.List;
  */
 public class WeatherStation {
 
+    private String name;
+    private List<WeatherAttribute> attributeList = new ArrayList<>();
+
+    WeatherStation(String name) {
+        this.name = name;
+    }
+
+    void updateData(WeatherAttribute attribute) {
+
+        this.attributeList.add(attribute);
+
+    }
 
 }
