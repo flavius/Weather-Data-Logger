@@ -13,10 +13,9 @@ public class WeatherStation {
         this.name = name;
     }
 
+    //Fix-this note: find a way so it does not add multiple attributes with the same name.
     void updateData(WeatherAttribute attribute) {
-
         this.attributeList.add(attribute);
-
     }
 
 }
